@@ -11,7 +11,7 @@ if(isMac) {
 $.fn.on = function(){};
 
 // show clippy
-clippy.load('Merlin', function(agent){
+clippy.load('CHANGE ME TO CHANGE THE ASSITANT BASED ON THE CLIPPY JS PAGE', function(agent){
     agent.show();
     var intiialSpeechTimeoutId = setTimeout(function() {
         agent.speak("Need some help closing me? Try double-clicking...");
